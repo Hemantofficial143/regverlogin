@@ -1,0 +1,33 @@
+{
+    "name": "jangid/regverlogin",
+    "description": "It contains Registration Login and Email Verification",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hemant",
+            "email": "rj.hemantjangid@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jangid\\Regverlogin\\": "src/"
+        }
+        
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jangid\\Regverlogin\\RegverloginServiceProvider"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPMailer\\Test\\": "test/"
+        }
+    },
+    "prefer-stable": true
+}
