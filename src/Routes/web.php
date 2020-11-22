@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace' => 'Hemus\Regverlogin\Http\Controllers','middleware' => ['web']],function(){
+Route::group(['namespace' => 'Jangid\Regverlogin\Http\Controllers','middleware' => ['web']],function(){
     Route::get('/register','RegisterController@index');
     Route::post('/register','RegisterController@store')->name('register.post');
     Route::get('/verify/{token}','RegisterController@verify');

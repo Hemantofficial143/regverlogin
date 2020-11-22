@@ -4,7 +4,7 @@ namespace Jangid\Regverlogin\Http\Controllers;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use Hemus\Regverlogin\Models\User;
+use Jangid\Regverlogin\Models\User;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Auth\Events\PasswordReset;
-use Hemus\Regverlogin\Mail\ForgotPasswordEmail;
-use Hemus\Regverlogin\Http\Controllers\ValidationController;
+use Jangid\Regverlogin\Mail\ForgotPasswordEmail;
+use Jangid\Regverlogin\Http\Controllers\ValidationController;
 
 class ForgotPasswordController extends Controller
 {

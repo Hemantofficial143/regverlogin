@@ -3,14 +3,14 @@
 namespace Jangid\Regverlogin\Http\Controllers;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use Hemus\Regverlogin\Models\User;
+use Jangid\Regverlogin\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Notifications\Notifiable;
-use Hemus\Regverlogin\Mail\EmailVerification;
+use Jangid\Regverlogin\Mail\EmailVerification;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Hemus\Regverlogin\Http\Controllers\ValidationController;
+use Jangid\Regverlogin\Http\Controllers\ValidationController;
 
 class RegisterController extends Controller
 {

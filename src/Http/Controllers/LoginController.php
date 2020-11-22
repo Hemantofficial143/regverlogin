@@ -3,11 +3,11 @@
 namespace Jangid\Regverlogin\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Hemus\Regverlogin\Models\User;
+use Jangid\Regverlogin\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Notifications\Notifiable;
-use Hemus\Regverlogin\Http\Controllers\ValidationController;
+use Jangid\Regverlogin\Http\Controllers\ValidationController;
 
 class LoginController extends Controller
 {
